@@ -18,6 +18,7 @@ export interface ImageProps {
   imageSrc: string;
   name: string;
   category: string;
+  like: number;
 }
 
 export default async function GalleryPage() {
