@@ -15,6 +15,13 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  colors: {
+    'main': '#ffb400',
+    'white': '#FFFFFF',
+    'gray': '#ABB2BF',
+    'dark' : '#282C33',
+    "black": "#000000",
+  },
+  plugins: [require('@tailwindcss/aspect-ratio')],
 };
 export default config;
